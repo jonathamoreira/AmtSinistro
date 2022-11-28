@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="imagens/png" sizes="32x32" href="imagens/favicon-16x16.png">
+    <link rel="icon" type="imagens/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Operacional</title>
+</head>
+
+<body>
+    <section id="home">
+        <header>
+            <div class="logo">
+                <img src="./imagens/logoAMT.png" alt="">
+                <h1>AMT</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Qap">QAP</a></li>
+                    <li><a href="#Setores">Setores</a></li>
+                    <li><a href="#Contato">Contato</a></li>
+                    <div class="c-icons">
+                        <span class="icon">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </span>
+                        <span class="icon">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                        </span>
+                        <span class="icon">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </span>
+                    </div>
+
+                </ul>
+            </div>
+        </header>
+        <div class="container">
+            <div class="container-form">
+                <div class="header">
+                    <h2>Solicitar Atendimento</h2>
+                </div>
+                <form id="form" class="form">
+                    <div class="form-control">
+                        <label for="username">Requerente</label>
+                        <input type="text" id="username" placeholder="digite seu nome">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Mensagem de erro</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="numberT">Telefone</label>
+                        <input type="number" id="numberT" placeholder="digite seu Telefone">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Mensagem de erro</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="lugar">Endereço da Ocorrência</label>
+                        <input type="textarea" id="lugar" placeholder="bairro, rua, numeral e ponto de referência">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Mensagem de erro</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="envolvidos">Veículos Envolvidos</label>
+                        <input type="textarea" id="envolvidos" placeholder="placa dos veículos">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Mensagem de erro</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="vitima">Tem vítimas?</label>
+                        <select name="vitima" id="vitima">
+                            <option value="nao">Não, apenas danos materiais</option>
+                            <option value="simleve">Sim, ferimentos leves</option>
+                            <option value="simgrave">Sim, Estado Grave</option>
+                        </select>
+
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--header-->
+    <section id="Qap">
+        <h2>Qap</h2>
+    </section>
+    <!--Qap-->
+
+    <section id="Setores">
+        <h2>Setores</h2>
+    </section>
+    <!--Setores-->
+
+    <section id="Contato">
+        <h2>Contato</h2>
+    </section>
+    <!--Setores-->
+
+
+    <footer>
+
+
+        </div>
+        <div class="datehour">
+            <p id="time"></p>
+        </div>
+
+    </footer>
+    <!--footer-->
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
